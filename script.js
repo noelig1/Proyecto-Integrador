@@ -1,4 +1,4 @@
-/*
+
 // Solicita al usuario que introduzca un número entero
 let edad = prompt("Introduce tu edad");
 
@@ -16,4 +16,3 @@ function MayoroMenor(edad) {
     return "USTED ESTA INGRESANDO BAJO SU RESPONSABILIDAD";
   }
 }
-*/
