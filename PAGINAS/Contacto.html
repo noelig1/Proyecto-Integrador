@@ -63,73 +63,49 @@
       </nav>
       </header>
   
-    <main>  
-          </form>
-          <br>
-          <form class="row g-3">
-            <div class="col-md-5">
-              <span class="badge text-bg-dark">Nombre</span>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-5">
-              <span class="badge text-bg-dark">Apellido</span>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-           
-            <div class="col-md-5">
-              <span class="badge text-bg-dark">Dni</span>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-5">
-              <span class="badge text-bg-dark">Teléfono</span>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-6">
-              <span class="badge text-bg-dark">Correo Electrónico</span>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-5">
-              <span class="badge text-bg-dark">Dirección de envio</span>
-              <input type="text" class="form-control" id="inputAddress">
-            </div>
-            <div class="col-md-6">
-              <span class="badge text-bg-dark">Ciudad</span>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-5">
-              <span class="badge text-bg-dark">Provincia</span>
-              <p><select id="producto" name="producto">
-                <option value="">Seleccione una opción</option>
-                <option value="ropa">BUENOS AIRES</option>
-                <option value="zapatos">CAPITAL FEDERAL</option>
-                <option value="accesorios">LA PAMPA</option>
-                <option value="otros">SANTA FE</option>
-                <option value="">ENTRE RIOS</option>
-                <option value="ropa">CORDOBA</option>
-                <option value="zapatos">SAN LUIS</option>
-                <option value="accesorios">NEUQUEN</option>
-                <option value="otros">RIO NEGRO</option>
-                <option value="">CORRIENTES</option>
-                <option value="ropa">SAN JUAN</option>
-                <option value="zapatos">CHUBUT</option>
-                <option value="accesorios">SANTA CRUZ</option>
-                <option value="otros">SALTA</option>
-            <input type="text" class="form-control" id="inputCity">
-            <br>
-            <div class="col-md-6"
-            <br><input class="badge text-bg-dark">Mensaje</input>
-              <textarea id="msg" name="user_message"></textarea>
-            </div>
-          </div>
-          </form>
-          <br>
-         <input type="submit" value="Enviar">
-         <br>
->
-        
-      </form>
-      <br>
-
+    <main> 
+      <form method=" action=" class="formulario">
+              <label for="nombre"><b>Nombre</b></label>
+              <input type="text" name="nombre" id="nombre">
+              <label for="apellido"><b>Apellido</b></label>
+              <input type="text" name="apellido" id="apellido"><br>
+              <br>
+              <label for="fecha_nacimiento"><b>Fecha de nacimiento:</b></label>
+              <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+              <label for="dni"><b>DNI</b></label>
+              <input type="number" name="dni" id="dni"><br>
+              <br>
+              <label for="email"><b>Email</b></label>
+              <input type="email" name="email" id="email"><br>
+              <br>
+              <label for="telefono"><b>Teléfono</b></label>
+              <input type="telefono" name="telefono" id="telefono"><br>
+              <br>
+              <label for="apellido"><b>Dirección de envio</b></label>
+              <input type="text" name="Dirección de envio" id="Dirección de envio"><br>
+              <br>
+              <label for="apellido"><b>Ciudad</b></label>
+              <input type="text" name="Ciudad" id="Ciudad"><br>
+              <h4>Indique sexo: </h4>
+                 <b>Femenino: </b><input type="radio" name="sexo">
+                <b>Maculino: </b><input type="radio" name="sexo"> <br>
+                 <h4>Provincia </h4>
+                 <select name="Pais" id="pais">
+                  <option value="cap">CAPITAL FEDERAL</option>
+                  <option value="bue">BUENOS AIRES</option>
+                  <option value="sta">SANTA FE</option>
+                  <option value="ent">ENTRE RIOS</option>
+                  <option value="men">MENDOZA</option>
+                  <option value="lap">LA PAMPA</option>
+                 </select>
+                 <br>
+              <h4> Deseas dejar algun mensaje: </h4>
+                  <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                  <h4>Que tan interesante te parecio esta pagina: </h4>
+                  <input type="range"> <br>
+                  <input type="submit" value="enviar">
+                  <input type="reset" value="cancelar"><br>
+       </form>          
        
 </main>
 <footer class="footer">
